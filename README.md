@@ -11,13 +11,15 @@ Hunter traces packets sent from a given source to a destination anycast IP. The 
 Example of usage with an Atlas probe as source
 ```
 python3 main.py -t 34.110.229.214 -o "(48.85341, 2.3488)" -y true -v
+
+python3 main.py -t 2607:f8b0:4003:c00::6a -o "(48.85341, 2.3488)" -y true -v
 ```
 
 Example of usage using the host machine as the source
 ```
 python3 main.py -t 34.110.229.214 -y true -v
 
-python3 main.py -t ::ffff:226e:e5d6 -y true -v
+python3 main.py -t 2607:f8b0:4003:c00::6a -y true -v
 ```
 
 If you have any question on how to use the tool, you can use the help option.
