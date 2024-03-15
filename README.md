@@ -16,6 +16,7 @@ python3 main.py -t 34.110.229.214 -o "(48.85341, 2.3488)" -y true -v
 Example of usage using the host machine as the source
 ```
 python3 main.py -t 34.110.229.214 -y true -v
+python3 main.py -t ::ffff:226e:e5d6 -y true -v
 ```
 
 If you have any question on how to use the tool, you can use the help option.
