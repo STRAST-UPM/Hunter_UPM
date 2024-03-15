@@ -2,7 +2,7 @@
 Network tool specialized in anycast IP destination tracking, geolocating the destination of packets sent to anycast addresses.
 
 ## Citation
-This software has been developed as part of our research to uncover cross-border personal data transfers failing to meet the requirements set by the EU General Protection Regulation. Please cite our [paper](http://dx.doi.org/10.2139/ssrn.4627981) instead of referencing the software repository to support our research. You can find a pre-print [here]
+This software has been developed as part of our research to uncover systems failing to meet the EU General Protection Regulation requirements. Please cite our [paper](http://dx.doi.org/10.2139/ssrn.4627981) instead of referencing the software repository to support our research. You can find a pre-print [here]
 <http://dx.doi.org/10.2139/ssrn.4627981>.
 
 ## Usage
