@@ -455,6 +455,9 @@ class Hunter:
             radius=self._radius,
             num_probes=7
         )
+
+        af = 6 if is_ipv6(self._target) else 4
+
         pings_data = {
             "definitions": [
                 {
@@ -462,7 +465,7 @@ class Hunter:
                     "description": "Hunter pings %s" % self._target,
                     "type": "ping",
                     "is_oneoff": True,
-                    "af": 4,
+                    "af": af,
                     "packets": 3
                 }
             ],
