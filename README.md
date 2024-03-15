@@ -23,7 +23,7 @@ If you have any question on how to use the tool, you can use the help option.
 python3 main.py -h
 ```
 
-##License
+## License
 Hunter is licensed under [Creative Common Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/). You may not use Hunter except in compliance with this license.
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
