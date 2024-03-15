@@ -6,7 +6,7 @@ This software has been developed as part of our research to uncover systems fail
 <http://dx.doi.org/10.2139/ssrn.4627981>.
 
 ## Usage
-Hunter traces packets sent from a given source to a destination anycast IP. The source can be your computer or one of the probes offered by [RIPE Atlas](https://atlas.ripe.net/). If you want to use a RIPE Atlas probe as the source the approximate coordinates of the probe must be given (and Hunter will select a  probe close to those coordinates).
+Hunter traces packets sent from a given source to a destination anycast IP. The source can be your computer or one of the probes offered by [RIPE Atlas](https://atlas.ripe.net/). If you want to use a RIPE Atlas probe as the source, you must provide the approximate coordinates of the probe (Hunter will select a probe close to those coordinates). The destination can be either an IPv4 or IPv6 address. 
 
 Example of usage with an Atlas probe as source
 ```
@@ -16,6 +16,7 @@ python3 main.py -t 34.110.229.214 -o "(48.85341, 2.3488)" -y true -v
 Example of usage using the host machine as the source
 ```
 python3 main.py -t 34.110.229.214 -y true -v
+
 python3 main.py -t ::ffff:226e:e5d6 -y true -v
 ```
 
